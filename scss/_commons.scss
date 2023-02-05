@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.img_carousel{
+    height: calc(100vh - 60px);
+    width: 100vw;
+    object-fit:cover;
+    z-index: 1;
+}
+.carousel{
+    z-index: 1;
+    display: block;
+    background-color: aqua;
+}
