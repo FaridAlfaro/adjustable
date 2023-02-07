@@ -3,10 +3,12 @@
    height: 24px;
    margin-top: 4px;
 }
-
+.caja{
+    background-color: #EBEBEB;
+    height: 100vh;
+}
 .nav_container{
     padding: 10px;
-    background-color: #ffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,12 +45,12 @@
 }
 
 /* Estilos para el listado del Menú */
-.cont-menu ul{
+.cont-menu .ul_hamburguer{
     padding: 100px 0px 20px 0px;
     list-style: none;
 }
 
-.cont-menu ul li{
+.cont-menu .ul_hamburguer .li_hamburguer{
     color: white;
     display: block;
     font-size: 25px;
@@ -57,7 +59,7 @@
     cursor: pointer;
 }
 
-.cont-menu ul li:hover{
+.cont-menu .ul_hamburguer .li_hamburguer:hover{
     background-color: rgb(228,228,228);
     color: rgb(42,42,42);
 }
