@@ -120,3 +120,34 @@ main{
   85%  {margin-top:-40px;}
   100% {margin-top:0;}
 }
+
+.filosofia{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.filo_img{
+  margin: 100px 0;
+  height: 200px;
+  filter: brightness(.8);
+}
+.filo_imgb{
+  margin: 100px 0;
+  height: 200px;
+  transition: .5s;
+}
+.front_filo_img{
+  position: relative;
+}
+.back_filo_img{
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.filo_imgb:active{
+  translate: 35vw;
+}
