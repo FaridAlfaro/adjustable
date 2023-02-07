@@ -47,7 +47,8 @@ function repetir() {
   }
   document.getElementById('text_rotate').innerHTML=Textos[nuevoTexto];
 // cambiar 4 por el valor en segundos
-  setTimeout("repetir()", 2*1000);
+  setTimeout("repetir()", 3*1000);
+  
 }
 window.onload=repetir;
 //]]>

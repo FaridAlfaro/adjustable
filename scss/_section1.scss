@@ -17,19 +17,21 @@
   display: block;
 }
 .title_section1 {
-  font-size: 56px;
+  font-size: 40px;
   text-align: left;
   font-weight: 300;
 }
+
 .title__active {
   font-weight: 700;
-  animation: latidos .5s infinite;
+  animation: latidos 4s infinite;
   transform-origin: center;
 }
 
 .text__active {
   font-weight: 700;
 }
+
 .cta {
   padding: 20px 30px;
   display: inline-block;
@@ -47,7 +49,7 @@
 }
 
 @keyframes latidos {
-  from { transform: none; }
-  50% { transform: scale(1.4); }
-  to { transform: none; }
+  from { transform: none; opacity: 50%;}
+  50% { transform: scale(1.1); opacity: 0%;}
+  to { transform: none; opacity: 100%;}
 }

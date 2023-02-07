@@ -298,14 +298,14 @@ main {
 }
 
 .title_section1 {
-  font-size: 56px;
+  font-size: 40px;
   text-align: left;
   font-weight: 300;
 }
 
 .title__active {
   font-weight: 700;
-  animation: latidos 0.5s infinite;
+  animation: latidos 4s infinite;
   transform-origin: center;
 }
 
@@ -332,12 +332,15 @@ main {
 @keyframes latidos {
   from {
     transform: none;
+    opacity: 50%;
   }
   50% {
-    transform: scale(1.4);
+    transform: scale(1.1);
+    opacity: 0%;
   }
   to {
     transform: none;
+    opacity: 100%;
   }
 }
 
