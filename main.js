@@ -16,3 +16,38 @@ iconoMenu.addEventListener('click', (e) => {
         e.target.setAttribute('src','/img/3869892-200.png');
     }
 });
+
+//nav scroll 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navPrincipal").style.top = "0";
+  } else {
+    document.getElementById("navPrincipal").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
+var Textos = new Array();
+  // Enter the names of the images below
+  Textos[0]="Desarrollo web";
+  Textos[1]="Ciencia de datos";
+  Textos[2]="Diseño multimedia";
+ 
+var nuevoTexto = -1; // para empezar en el primer texto -1, con 0 comienza por mostrar el segundo
+var totalTextos = Textos.length;
+ 
+function repetir() {
+  nuevoTexto++;
+  if (nuevoTexto == totalTextos) {
+    nuevoTexto = 0;
+  }
+  document.getElementById('text_rotate').innerHTML=Textos[nuevoTexto];
+// cambiar 4 por el valor en segundos
+  setTimeout("repetir()", 2*1000);
+}
+window.onload=repetir;
+//]]>

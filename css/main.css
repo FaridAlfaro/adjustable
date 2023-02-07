@@ -37,10 +37,10 @@ main {
   font-family: "Muli";
   color: black;
   height: 40px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  margin-top: -15px;
+  margin: 50vh 0;
   margin-left: -118px;
 }
 .content:before {
@@ -215,7 +215,6 @@ main {
 
 .caja {
   background-color: #EBEBEB;
-  height: 100vh;
 }
 
 .nav_container {
@@ -275,6 +274,71 @@ main {
 .cont-menu .ul_hamburguer .li_hamburguer:hover {
   background-color: rgb(228, 228, 228);
   color: rgb(42, 42, 42);
+}
+
+.caja__main {
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 0;
+  padding: 3vh;
+}
+
+.mockup {
+  width: 120px;
+  max-height: 90vh;
+  margin: auto;
+}
+
+.caja__textos {
+  width: 50%;
+  text-align: left;
+  display: block;
+}
+
+.title_section1 {
+  font-size: 56px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.title__active {
+  font-weight: 700;
+  animation: latidos 0.5s infinite;
+  transform-origin: center;
+}
+
+.text__active {
+  font-weight: 700;
+}
+
+.cta {
+  padding: 20px 30px;
+  display: inline-block;
+  background-color: #000;
+  color: #EBEBEB;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.cta:hover {
+  background-color: #2DAAE1;
+  transition: 0.5s;
+  color: #fafafa;
+}
+
+@keyframes latidos {
+  from {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
