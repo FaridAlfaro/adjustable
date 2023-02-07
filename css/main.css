@@ -20,7 +20,7 @@ main {
 }
 
 .img_carousel {
-  height: calc(100vh - 250px);
+  height: 50vh;
   width: 100vw;
   object-fit: cover;
 }
@@ -292,7 +292,7 @@ main {
 }
 
 .caja__textos {
-  width: 50%;
+  width: 80%;
   text-align: left;
   display: block;
 }
