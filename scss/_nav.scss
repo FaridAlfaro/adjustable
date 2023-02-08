@@ -45,7 +45,6 @@
 
 /* Estilos para el listado del Menú */
 .cont-menu .ul_hamburguer{
-    position: fixed;
     padding: 100px 0px 20px 0px;
     list-style: none;
 }
@@ -61,5 +60,6 @@
 
 .cont-menu .ul_hamburguer .li_hamburguer:hover{
     background-color: rgb(228,228,228);
-    color: rgb(42,42,42);
+    color: #000;
+    font-weight: 700;
 }

@@ -33,9 +33,9 @@ window.onscroll = function() {
 
 var Textos = new Array();
   // Enter the names of the images below
-  Textos[0]="Desarrollo web";
-  Textos[1]="Ciencia de datos";
-  Textos[2]="Diseño multimedia";
+  Textos[0]="Desarrollo<br>web";
+  Textos[1]="Ciencia de<br>datos";
+  Textos[2]="Diseño<br>multimedia";
  
 var nuevoTexto = -1; // para empezar en el primer texto -1, con 0 comienza por mostrar el segundo
 var totalTextos = Textos.length;

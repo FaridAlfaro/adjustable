@@ -1,5 +1,5 @@
 .caja__main {
-  height: calc(100vh - 48px);
+  height: 95vh;
   display: flex;
   flex-direction: column-reverse;
   justify-content:space-between;
@@ -24,8 +24,8 @@
 
 .title__active {
   font-weight: 700;
-  animation: latidos 4s infinite;
   transform-origin: center;
+  animation:3.5s linear -.5s normal none infinite opacity;
 }
 
 .text__active {
@@ -48,8 +48,3 @@
   color: #fafafa;
 }
 
-@keyframes latidos {
-  from { transform: none; opacity: 50%;}
-  50% { transform: scale(1.1); opacity: 0%;}
-  to { transform: none; opacity: 100%;}
-}
