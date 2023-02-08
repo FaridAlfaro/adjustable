@@ -26,7 +26,7 @@ main{
     background-color: #fafafa;
 }
 .content {
-  width:200px;
+  width:240px;
   font-size:20px;
   line-height:40px;
   font-family:'Muli';
@@ -38,13 +38,13 @@ main{
   &:before {
     content:'[';
     position:absolute;
-    left:-30px;
+    left:-50px;
     line-height:40px;
   }
   &:after {
     content:']';
     position:absolute;
-    right:-30px;
+    right:-50px;
     line-height:40px;
   }
   &:after, &:before {
@@ -72,7 +72,7 @@ main{
 
 .ul_nav {
   margin-top:0;
-  padding-left:80px;
+  padding-left:100px;
   text-align:left;
   list-style:none;
   animation:6s linear 0s normal none infinite change;
