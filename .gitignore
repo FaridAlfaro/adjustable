@@ -1,1 +1,26 @@
 node_modules/
+var Textos = new Array();
+  // Enter the names of the images below
+  Textos[0]="texto1";
+  Textos[1]="<h1>texto2<\/h1>";
+  Textos[2]="<p class='rojo'>texto3<\/p>";
+ 
+var nuevoTexto = -1; // para empezar en el primer texto -1, con 0 comienza por mostrar el segundo
+var totalTextos = Textos.length;
+ 
+function repetir() {
+  nuevoTexto++;
+  if (nuevoTexto == totalTextos) {
+    nuevoTexto = 0;
+  }
+  document.getElementById('texto').innerHTML=Textos[nuevoTexto];
+// cambiar 4 por el valor en segundos
+  setTimeout("repetir()", 4*1000);
+}
+window.onload=repetir;
+//]]>
+</script>
+</head>
+<body>
+<div id="texto"><!-- texto --></div>
+</body>
