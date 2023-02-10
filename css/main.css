@@ -206,6 +206,68 @@ main {
   translate: 35vw;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.card_ {
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: black;
+  width: 80%;
+  margin: 20px;
+}
+
+.card_body {
+  margin: 1rem;
+  color: #EBEBEB;
+}
+
+.card_title {
+  font-weight: 700;
+}
+
+.card_img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #EBEBEB;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.boton:hover {
+  background-color: #2DAAE1;
+  color: #EBEBEB;
+}
+
+.caja_video {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.video {
+  padding-bottom: 10vh;
+  width: 100vw;
+  height: auto;
+}
+
 .logo img {
   height: 24px;
   margin-top: 4px;
@@ -276,11 +338,11 @@ main {
 
 .caja__main {
   height: 85vh;
-  display: flex;
+  width: 100%;
+  display: inline-block;
   flex-direction: column-reverse;
   justify-content: space-between;
   padding: 0;
-  padding: 3vh;
 }
 
 .mockup {
@@ -290,6 +352,7 @@ main {
 }
 
 .caja__textos {
+  padding-left: 2vh;
   width: 80%;
   text-align: left;
   display: block;
