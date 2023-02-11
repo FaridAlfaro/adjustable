@@ -263,9 +263,7 @@ main {
 }
 
 .video {
-  padding: 0 0 10vh 0;
   width: 100vw;
-  height: auto;
 }
 
 .logo img {
@@ -340,20 +338,12 @@ main {
   height: 85vh;
   width: 100%;
   display: inline-block;
-  flex-direction: column-reverse;
-  justify-content: space-between;
   padding: 0;
 }
 
-.mockup {
-  width: 120px;
-  max-height: 90vh;
-  margin: auto;
-}
-
 .caja__textos {
-  padding: 10vh 2vh;
-  width: 80%;
+  padding: 0 2vh;
+  width: 95%;
   text-align: left;
   display: block;
 }
