@@ -6,9 +6,14 @@
 }
 
 .title {
-  background-color: #EBEBEB;
   text-align: center;
   margin: 100px 0 0 0;
+}
+
+.titleB {
+  text-align: center;
+  margin: 100px 0 0 0;
+  color: #EBEBEB;
 }
 
 .subtitle {
@@ -20,15 +25,19 @@ main {
   background-color: #EBEBEB;
 }
 
+.skills {
+  background-color: black;
+  padding: 20px;
+  margin: 100px 0;
+}
+
 .img_carousel {
-  height: 50vh;
-  width: 100vw;
-  object-fit: cover;
+  height: 200px;
+  scale: 1.5;
 }
 
 .carousel {
   display: block;
-  background-color: #fafafa;
 }
 
 .content {
@@ -36,7 +45,7 @@ main {
   font-size: 20px;
   line-height: 40px;
   font-family: "Muli";
-  color: black;
+  color: #EBEBEB;
   height: 40px;
   position: relative;
   margin: 10vh auto;
@@ -54,7 +63,7 @@ main {
   line-height: 40px;
 }
 .content:after, .content:before {
-  color: #2DAAE1;
+  color: #ffffff;
   font-size: 42px;
   animation: 2s linear 0s normal none infinite opacity;
   -webkit-animation: 2s ease-out 0s normal none infinite opacity;
@@ -176,6 +185,16 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.filosofia {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url(/img/sea-7423274_640.jpg);
 }
 
 .filo_img {
